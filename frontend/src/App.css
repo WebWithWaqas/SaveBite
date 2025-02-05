@@ -1,0 +1,274 @@
+.bottom-bar{
+  width: 100%;
+  height: 50px;
+  background-color: #fdbc2e;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-bar .menu{
+  font-size: 28x;
+  color: #fff;
+  width: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:focus{
+  color: rgb(63, 63, 63);
+}
+
+.main-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;   */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+.profile img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+
+.btn-primary{
+  background-color: #fdbc2e !important;
+  border-color: #fdbc2e !important;
+}
+
+.addBtn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background-color: #fdbc2e;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-box{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  background-color:#fdbc2e;
+  /* border-radius: 50px; */
+}
+
+.chat-box h6{
+  margin-top: 8px;
+}
+
+
+.chat-profile{
+  width: 80px;
+  height: 60px;
+}
+
+.msg-input{
+  position: fixed;
+  bottom: 60px;
+  left: 20px;
+  width: 90%;
+  height: 45px;
+  display: flex !important;
+  justify-content: space-between;
+}
+.chat-input{
+  margin-right: 10px;
+}
+.chat-input::placeholder{
+  font-size: 15px !important;
+}
+
+.msg-box{
+  padding: 10px;
+  /* position:fixed; */
+  height: 84%;
+  width: 100%;
+  padding-top: 54px;
+  overflow: scroll;
+}
+
+.chat-sender{
+  border:2px solid gray;
+  padding: 10px;
+  margin-bottom: 16px !important;
+  padding-right: 25px !important;
+  border-radius: 25px;
+  margin:5px;
+  text-align: right;
+  font-size: 15px;
+  color: gray !important;
+}
+.my-row{
+  display: flex;
+  justify-content: center;
+}
+.charity-pool{
+  margin: 20px 20px !important;
+  width: 70% !important;
+}
+.pool-img{
+  height: 200px;
+  width: 100%;
+  border-radius: 25px;
+  background-image: url('./pages/food.jpg');
+  background-size: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+	background: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+}
+.card{
+	border: none;
+	border-radius: 15px;
+}
+.adiv{
+	background: #fdbc2e;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	font-size: 15px;
+	height: 46px;
+}
+.food-banner , .charity-banner{
+  background-color:  #fdbc2e;
+  color: white;
+  padding:10px ;
+  position: fixed;
+  z-index: 1;
+}
+.mypage{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.chat{
+	border: none;
+	background: #f8be41;
+	font-size: 15px;
+	border-radius: 25px;
+  color: white !important;
+}
+.bg-white{
+	border: 1px solid #E7E7E9;
+	font-size: 10px;
+	border-radius: 20px;
+}
+.myvideo img{
+	border-radius: 20px
+}
+.dot{
+	font-weight: bold;
+}
+.form-control{
+	border-radius: 12px;
+	border: 1px solid #F0F0F0;
+}
+.form-control:focus{
+	box-shadow: none;
+	}
+.form-control::placeholder{
+	font-size: 8px;
+	color: #C4C4C4;
+}
+.auth-primary-text{
+ color: #fdbc2e;
+}
+.text-white{
+  margin-bottom: 3px;
+}
+.description{
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  height: 70px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+#foodDiv{
+  padding-bottom: 0px !important;
+}
+
+.fa-pen-to-square{
+  font-size: 25px;
+}
+
+.logout{
+  position: absolute;
+  margin-bottom:60px;
+  display: flex;
+  justify-content: end;
+}
+
+
+.my-post-div{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #f8be41;
+}
+.my-post h4{
+  text-transform: uppercase;
+}
+
+.profile{
+  padding: 10px;
+}
+
+.fa-delete-left{
+  font-size: 30px;
+}
+.leaflet-container {
+  width: 100%;
+  height: 90vh;
+}
+.leaflet-popup-content{
+  width: 220px !important;
+}
+
+.leaflet-right{
+  display: none;
+}
+.msg-cont{
+  height: 100vh !important;
+}
+/* .leaflet-left{
+  display: none;
+} */
+.user-pic{
+    font-size: 90px;
+}
+
+.profile-pic{
+  background-color: white;
+    width: 150px !important;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.chat-div{
+  padding-top: 10px;
+}
+.text-right{
+  text-align: right;
+}
